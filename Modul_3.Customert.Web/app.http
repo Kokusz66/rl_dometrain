@@ -4,7 +4,7 @@ GET https://{{host}}/customers
 Accept: application/json
 
 ###
-@customerId=a86a4bbe-e48f-4bae-914c-241a2b8b2afb
+@customerId=a1d82285-cf45-4e2f-839e-7ffcf971b36a
 GET https://{{host}}/customers/{{customerId}}
 Accept: application/json
 

@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Mvc;
+using System.ComponentModel.DataAnnotations;
 using System.Runtime.CompilerServices;
 
 namespace Modul_3.Customert.Web.Customers
@@ -9,8 +10,8 @@ namespace Modul_3.Customert.Web.Customers
         {
             //routGroup:
             var customeGroup = app.MapGroup("/customers")
-                //add filter to the route:
-                .AddEndpointFilter<ValidateCustomer>();
+                .WithOpenApi()
+                .WithTags("Customers");
 
             var customerGroupWithValidation = customeGroup.MapGroup("/")
                 .WithParameterValidation();
@@ -20,6 +21,9 @@ namespace Modul_3.Customert.Web.Customers
                 var customers = await data.ListAsync();
                 return TypedResults.Ok(customers);
             })
+                .WithDescription("List all customers.")
+                .WithSummary("List Customers")
+                
             .WithName("ListCustomers");
 
             customeGroup.MapGet("/{id:guid}", async (Guid id, CustomerData data) =>
@@ -42,6 +46,8 @@ namespace Modul_3.Customert.Web.Customers
 
                     return Results.Created($"/customers/{newCustomer.Id}", newCustomer);
                 })
+                .Produces<Customer>(StatusCodes.Status201Created)
+                .ProducesValidationProblem(StatusCodes.Status400BadRequest)
             .AddEndpointFilter<ValidateCustomer>()
             .WithName("AddCustomer");
 
@@ -65,11 +71,15 @@ namespace Modul_3.Customert.Web.Customers
 
                     return Results.Ok(updatedCustomer);
                 })
-
+                .ProducesProblem(StatusCodes.Status404NotFound)
             .WithName("UpdateCustomer");
 
 
-            customeGroup.MapDelete("/{id:guid}", async (Guid id, CustomerData data) =>
+            customeGroup.MapDelete("/{id:guid}",
+                //desc. hozzáadása:
+                [EndpointDescription("(description)Delete a customer.")]
+                //vagy xml csak ahhoz nem szabad lambdát használni
+                async (Guid id, CustomerData data) =>
             {
                 if (await data.GetByIdAsync(id) is null)
                 {
@@ -82,7 +92,17 @@ namespace Modul_3.Customert.Web.Customers
             .WithName("DeleteCustomer");
 
 
+            RouteHandlerBuilder routeHandlerBuilder = app.MapGet("/brewcoffee", (HttpResponse response) =>
+            {
+                response.StatusCode = 418;
+                response.ContentType = "text/plain";
+                return response.WriteAsync("I'm a teapot - I cannot brew coffee");
+            })
+                .ProducesProblem(StatusCodes.Status404NotFound)
+                .WithName("BrewCoffee");
+
         }
+
     }
 }
 
@@ -102,6 +122,45 @@ public readonly record struct CreateCustomerRequest : IValidatableObject
         {
             yield return new ValidationResult("Company Name Cannot be NimblePros.",
                 new[] { nameof(CompanyName) });
+        }
+    }
+}
+
+public readonly record struct UpdateCustomerRequest : IValidatableObject
+{
+    [Required]
+    [MinLength(10)]
+
+    public string CompanyName { get; init; }
+    public List<Project> Projects { get; init; }
+
+    public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
+    {
+        if (CompanyName == "NimblePros")
+        {
+            yield return new ValidationResult("Company Name Cannot be NimblePros.",
+                new[] { nameof(CompanyName) });
+        }
+    }
+}
+
+public record struct PutRequest : IValidatableObject
+{
+    [FromRoute(Name = "id")]
+    [Required]
+    public Guid Id { get; set; }
+    [Required]
+    public Customer Customer { get; set; }
+    public CustomerData Data { get; set; }
+    //[EmailAddress]
+    //public string EmailAddress { get; set; }
+
+    public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
+    {
+        if (String.IsNullOrEmpty(Customer.CompanyName))
+        {
+            yield return new ValidationResult("COmpany Name is required.",
+                new[] { nameof(Customer.CompanyName) });
         }
     }
 }

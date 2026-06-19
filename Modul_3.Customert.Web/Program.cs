@@ -11,12 +11,22 @@ using static CustomerData;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(config =>
+{
+    //videóhoz képest javítva a jelenlegi verzióra:
+    config.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo()
+    {
+        Title = "NimbusPros Customer FLY",
+        Description = "Api for managing customers",
+        Version = "1.0"
+    });
+});
+
 builder.Services.AddSingleton<CustomerData>();
 builder.Services.AddTransient<IEmailMessageFactory, EmailMessageFactory>();
 
 //Mailsettings konfigurálása:
-var mailSetting = builder.Configuration.GetSection(nameof(MailSettings)).Get<MailSettings>(); 
+var mailSetting = builder.Configuration.GetSection(nameof(MailSettings)).Get<MailSettings>();
 builder.Services.AddSingleton(mailSetting);
 
 builder.Services.AddTransient<IEmailSenderService, ConsoleOnlyEmailSenderService>();
@@ -24,14 +34,13 @@ if (builder.Environment.IsDevelopment())
 {
     builder.Services.AddTransient<IEmailSenderService, ConsoleOnlyEmailSenderService>();
 }
-else 
+else
 {
-    builder.Services.AddTransient<IEmailSenderService, MailKitEmailSenderServices>();   
-
+    builder.Services.AddTransient<IEmailSenderService, MailKitEmailSenderServices>();
 }
+
 //builder.Services.AddTransient<CustomerEmailService>(); //ezt nem lhet változtatni, ezért ez lesz belple:
 builder.Services.AddTransient<ICustomerEmailService, CustomerEmailService>();
-
 
 var app = builder.Build();
 
@@ -42,56 +51,5 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.MapCustomerEndpoints();
-RouteHandlerBuilder routeHandlerBuilder = app.MapGet("/brewcoffee", (HttpResponse response) =>
-{
-    response.StatusCode = 418;
-    response.ContentType = "text/plain";
-    return response.WriteAsync("I'm a teapot - I cannot brew coffee");
-})
-    .WithName("BrewCoffee");
-
 app.Run();
-
-
-
-public readonly record struct UpdateCustomerRequest : IValidatableObject
-{
-    [Required]
-    [MinLength(10)]
-
-    public string CompanyName { get; init; }
-    public List<Project> Projects { get; init; }
-
-    public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
-    {
-        if (CompanyName == "NimblePros")
-        {
-            yield return new ValidationResult("Company Name Cannot be NimblePros.",
-                new[] { nameof(CompanyName) });
-        }
-    }
-}
-
-public record struct PutRequest : IValidatableObject
-{
-    [FromRoute(Name ="id")]
-    [Required]
-    public Guid Id { get; set; }
-    [Required]
-    public Customer Customer { get; set; }
-    public CustomerData Data { get; set; }
-    //[EmailAddress]
-    //public string EmailAddress { get; set; }
-
-    public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
-    {
-        if (String.IsNullOrEmpty(Customer.CompanyName))
-        {
-            yield return new ValidationResult("COmpany Name is required.",
-                new[] { nameof(Customer.CompanyName) });
-        }
-    }
-}
-

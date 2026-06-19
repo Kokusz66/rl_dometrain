@@ -1,0 +1,5 @@
+﻿@Modul_3.Customert.Web_HostAddress = https://localhost:7266
+
+GET {{Modul_3.Customert.Web_HostAddress}}/brewcoffee
+
+###
