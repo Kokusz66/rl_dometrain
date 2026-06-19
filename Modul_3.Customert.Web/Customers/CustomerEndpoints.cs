@@ -106,9 +106,6 @@ namespace Modul_3.Customert.Web.Customers
     }
 }
 
-public record Customer(Guid Id, string CompanyName, List<Project> Project);
-public record Project(Guid Id, string ProjectName, Guid CustomerId);
-
 public readonly record struct CreateCustomerRequest : IValidatableObject
 {
     [Required]
