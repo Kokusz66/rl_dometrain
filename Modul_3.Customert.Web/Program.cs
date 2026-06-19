@@ -14,6 +14,11 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<CustomerData>();
 builder.Services.AddTransient<IEmailMessageFactory, EmailMessageFactory>();
+
+//Mailsettings konfigurálása:
+var mailSetting = builder.Configuration.GetSection(nameof(MailSettings)).Get<MailSettings>(); 
+builder.Services.AddSingleton(mailSetting);
+
 builder.Services.AddTransient<IEmailSenderService, ConsoleOnlyEmailSenderService>();
 if (builder.Environment.IsDevelopment())
 {

@@ -4,7 +4,7 @@ GET https://{{host}}/customers
 Accept: application/json
 
 ###
-@customerId=a1d82285-cf45-4e2f-839e-7ffcf971b36a
+@customerId=a86a4bbe-e48f-4bae-914c-241a2b8b2afb
 GET https://{{host}}/customers/{{customerId}}
 Accept: application/json
 
@@ -16,7 +16,7 @@ Accept: application/json
 Content-Type: application/json
 
 {
-  "companyName": "Smucilimuuuuuuuuuuuuuuuu"
+  "companyName": "Porject 1"
 }
 
 ###
@@ -32,7 +32,7 @@ Content-Type: application/json
 
 ###
 
-@customerThatDelete=5e1d51c0-882d-48b7-8055-55df857632f5
+@customerThatDelete=a86a4bbe-e48f-4bae-914c-241a2b8b2afb
 DELETE https://{{host}}/customers/{{customerThatDelete}}
 Accept: application/json
 
