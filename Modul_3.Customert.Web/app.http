@@ -16,12 +16,12 @@ Accept: application/json
 Content-Type: application/json
 
 {
-  "companyName": "Na ez elé hoszú"
+  "companyName": "Smucilimuuuuuuuuuuuuuuuu"
 }
 
 ###
 
-@customerIdToUpdate=d0dcc73a-a5fb-4695-8109-8bf32b6e7132
+@customerIdToUpdate=a1d82285-cf45-4e2f-839e-7ffcf971b36a
 PUT https://{{host}}/customers/{{customerIdToUpdate}}
 Accept: application/json
 Content-Type: application/json
@@ -32,7 +32,7 @@ Content-Type: application/json
 
 ###
 
-@customerThatDelete=d0dcc73a-a5fb-4695-8109-8bf32b6e7132
+@customerThatDelete=5e1d51c0-882d-48b7-8055-55df857632f5
 DELETE https://{{host}}/customers/{{customerThatDelete}}
 Accept: application/json
 
