@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/SolutionItems/">
+    <File Path="Directory.Build.props" />
+  </Folder>
   <Project Path="AppTOTest.IntegrationsTests/AppTOTest.IntegrationsTests.csproj" />
   <Project Path="AppToTest/AppToTest.csproj" />
 </Solution>

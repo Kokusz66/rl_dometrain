@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc.Testing;
-using Microsoft.VisualStudio.TestPlatform.TestHost;
 using System.Text.Json;
 using Xunit;
 using Ardalis.HttpClientTestExtensions;
@@ -32,4 +31,5 @@ namespace AppTOTest.IntegrationsTests
             Assert.Equal(5, forecast!.Count);
         }
     }
+
 }
