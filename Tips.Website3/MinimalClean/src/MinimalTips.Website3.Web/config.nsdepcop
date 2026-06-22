@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NsDepCopConfig>
+    <Allowed From="*" To="*" />
+
+    <Disallowed From="MinimalTips.Website3.Web.Domain.*"
+				To="MinimalTips.Website3.Web.Infrastructure.*" />
+    
+    <Disallowed From="MinimalTips.Website3.Web.CartFeatures.*"
+				To="MinimalTips.Website3.Web.Infrastructure.*" />
+    
+    <Disallowed From="MinimalTips.Website3.Web.ProductFeatures.*"
+				To="MinimalTips.Website3.Web.Infrastructure.*" />
+    
+    <Disallowed From="MinimalTips.Website3.Web.Domain.OrderAggregate.*"
+				To="MinimalTips.Website3.Web.Domain.CartAggregate.*" />
+
+    <AnalyzerConfig>
+        <IssueKind Name="IllegalDependency" Severity="Error" />
+    </AnalyzerConfig>
+</NsDepCopConfig>
