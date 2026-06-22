@@ -1,11 +1,6 @@
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.Build.Framework;
 using Microsoft.EntityFrameworkCore;
-using RazorpageFirstApp.Data;
-using System.ComponentModel.DataAnnotations;
-using System.Globalization;
-using RequiredAttribute = Microsoft.Build.Framework.RequiredAttribute;
+using WebApplication5.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,7 +12,7 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
-builder.Services.AddRazorPages();
+builder.Services.AddControllersWithViews(); //MVC miatt specifikusan zt hÃ­vjuk
 
 var app = builder.Build();
 
@@ -28,36 +23,21 @@ if (app.Environment.IsDevelopment())
 }
 else
 {
-    app.UseExceptionHandler("/Error");
+    app.UseExceptionHandler("/Home/Error");
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
 app.UseHttpsRedirection();
+app.UseStaticFiles();
 
-app.UseRouting();
+app.UseRouting(); //middlew.:
 
 app.UseAuthorization();
 
-app.MapStaticAssets();
-app.MapRazorPages()
-   .WithStaticAssets(); //minden ami a wwwroot-ban van az mind használható és publikus, ez nagyon fontos, sajnos publikus és erre figyelni kell!
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
+app.MapRazorPages();
 
 app.Run();
-
-
-public class CreateModel : PageModel
-{
-    public class CreateAuthorRequest
-    {
-        [Required]
-        public string name { get; set; }
-        [EmailAddress]
-        [Display(Name = "Email Address")]
-        public string EmailAddress { get; set; }
-
-        public bool IsActive { get; set; }
-
-
-    }
-}
