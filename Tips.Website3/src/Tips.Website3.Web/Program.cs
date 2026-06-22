@@ -25,6 +25,8 @@ builder.Services.AddFastEndpoints()
                   o.ShortSchemaNames = true;
                 });
 
+builder.Services.AddRazorPages();
+
 var app = builder.Build();
 
 await app.UseAppMiddlewareAndSeedDatabase();

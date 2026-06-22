@@ -20,6 +20,7 @@ var papercut = builder.AddContainer("papercut", "jijiechen/papercut", "latest")
   })
   .WithEndpoint("ui", e =>
   {
+    //átírható tetszóleges portra
     e.TargetPort = 37408;
     e.Port = 37408;
     e.UriScheme = "http";
