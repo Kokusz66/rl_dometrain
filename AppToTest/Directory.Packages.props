@@ -1,0 +1,10 @@
+﻿<Project>
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.AspNetCore.OpenApi" />
+		<PackageVersion Include="Ardalis.HttpClientTestExtensions" />
+		<PackageVersion Include="coverlet.collector" />
+		<PackageVersion Include="Microsoft.NET.Test.Sdk" />
+		<PackageVersion Include="xunit" />
+		<PackageVersion Include="xunit.runner.visualstudio"/>
+	</ItemGroup>
+</Project>
