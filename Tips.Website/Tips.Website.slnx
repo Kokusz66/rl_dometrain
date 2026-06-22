@@ -1,0 +1,33 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path=".template.config/template.json" />
+    <File Path="CleanArchitecture.nuspec" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Tips.Website.Core/Tips.Website.Core.csproj" />
+    <Project Path="src/Tips.Website.Infrastructure/Tips.Website.Infrastructure.csproj" />
+    <Project Path="src/Tips.Website.UseCases/Tips.Website.UseCases.csproj" />
+    <Project Path="src/Tips.Website.Web/Tips.Website.Web.csproj" />
+  </Folder>
+  <Folder Name="/src/_aspire/">
+    <Project Path="src/Tips.Website.AspireHost/Tips.Website.AspireHost.csproj" />
+    <Project Path="src/Tips.Website.ServiceDefaults/Tips.Website.ServiceDefaults.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Tips.Website.FunctionalTests/Tips.Website.FunctionalTests.csproj">
+      <BuildDependency Project="src/Tips.Website.Web/Tips.Website.Web.csproj" />
+    </Project>
+    <Project Path="tests/Tips.Website.IntegrationTests/Tips.Website.IntegrationTests.csproj">
+      <BuildDependency Project="src/Tips.Website.Infrastructure/Tips.Website.Infrastructure.csproj" />
+    </Project>
+    <Project Path="tests/Tips.Website.UnitTests/Tips.Website.UnitTests.csproj" />
+  </Folder>
+</Solution>
