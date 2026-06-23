@@ -60,3 +60,23 @@ Float floatClass = new Float();
 
 floatClass.SumFloat(myFloat, coolFloat);
 floatClass.DifferenceDouble(myDouble, coolDouble);
+
+BoolPlayground boolPlayground = new BoolPlayground(true, false);
+
+bool b1 = boolPlayground.GetRight() && boolPlayground.GetLeft();
+Console.WriteLine(b1);
+b1 = boolPlayground.GetRight() || boolPlayground.GetLeft();
+Console.WriteLine(b1);
+
+boolPlayground.SetLeftToTrue();
+bool b2 = boolPlayground.GetRight() && boolPlayground.GetLeft();
+Console.WriteLine(b2);
+b2 = boolPlayground.GetRight() || boolPlayground.GetLeft();
+Console.WriteLine(b2);
+
+boolPlayground.SetRigthToFalse();
+boolPlayground.SetLeftToFalse();
+bool b3 = boolPlayground.GetRight() && boolPlayground.GetLeft();
+Console.WriteLine(b3);
+b3 = boolPlayground.GetRight() || boolPlayground.GetLeft();
+Console.WriteLine(b3);
