@@ -2,6 +2,7 @@
   <Project Path="Collections/Collections.csproj" />
   <Project Path="ControlFlow/ControlFlow.csproj" />
   <Project Path="CsharpBasics/CsharpBasics.csproj" />
+  <Project Path="Dictionarry/Dictionarry.csproj" />
   <Project Path="Lists/Lists.csproj" />
   <Project Path="Switch/Switch.csproj" />
   <Project Path="TerneryOperators/TerneryOperators.csproj" />
