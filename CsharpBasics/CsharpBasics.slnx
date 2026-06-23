@@ -12,6 +12,7 @@
   <Project Path="OOPExamples/OOPExamples.csproj" />
   <Project Path="ReturnType/ReturnType.csproj" />
   <Project Path="SimpleMethod/SimpleMethod.csproj" />
+  <Project Path="StaticAndInstances/StaticAndInstances.csproj" />
   <Project Path="Switch/Switch.csproj" />
   <Project Path="TerneryOperators/TerneryOperators.csproj" />
 </Solution>
