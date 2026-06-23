@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="ControlFlow/ControlFlow.csproj" />
   <Project Path="CsharpBasics/CsharpBasics.csproj" />
+  <Project Path="Switch/Switch.csproj" />
   <Project Path="TerneryOperators/TerneryOperators.csproj" />
 </Solution>
