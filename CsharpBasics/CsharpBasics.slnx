@@ -1,6 +1,7 @@
 <Solution>
   <Project Path="Arguments/Arguments.csproj" />
   <Project Path="Collections/Collections.csproj" />
+  <Project Path="Constructors/Constructors.csproj" />
   <Project Path="ControlFlow/ControlFlow.csproj" />
   <Project Path="CsharpBasics/CsharpBasics.csproj" />
   <Project Path="Dictionarry/Dictionarry.csproj" />
