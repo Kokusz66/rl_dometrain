@@ -1,4 +1,6 @@
 ﻿//
+using CsharpBasics;
+
 Console.WriteLine("Hello, World!");
 
 //sime string basics:
@@ -47,3 +49,14 @@ Console.WriteLine($"5 - 10={difference}");
 Console.WriteLine($"5 * 10={product}");
 Console.WriteLine($"5 / 10={quotient}");
 
+float myFloat = 5.5f;
+double myDouble = 5.5;
+
+
+float coolFloat = 10.5f;
+double coolDouble = 10.5;
+
+Float floatClass = new Float();
+
+floatClass.SumFloat(myFloat, coolFloat);
+floatClass.DifferenceDouble(myDouble, coolDouble);
