@@ -80,3 +80,23 @@ bool b3 = boolPlayground.GetRight() && boolPlayground.GetLeft();
 Console.WriteLine(b3);
 b3 = boolPlayground.GetRight() || boolPlayground.GetLeft();
 Console.WriteLine(b3);
+
+//dateTime:
+DateTime myDateTime;
+
+DateOnly myDate;
+
+TimeOnly myTime;
+
+myDateTime = DateTime.Now;
+myDate = new DateOnly(2026, 6, 22);
+myTime = new TimeOnly(6, 22, 45);
+
+DateTime myDateTime2 = DateTime.Now;
+
+DateTime dateTimeFromCombination = new DateTime(myDate, myTime);
+
+Console.WriteLine(myDateTime.ToString());
+Console.WriteLine(myDate.ToString());
+Console.WriteLine(myTime.ToString());
+Console.WriteLine(myDateTime2.ToString());
