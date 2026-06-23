@@ -1,4 +1,4 @@
-﻿//
+﻿//elég egyszerű ujgyakorlatok ezért egybe írtam őket
 using CsharpBasics;
 
 Console.WriteLine("Hello, World!");
@@ -100,3 +100,10 @@ Console.WriteLine(myDateTime.ToString());
 Console.WriteLine(myDate.ToString());
 Console.WriteLine(myTime.ToString());
 Console.WriteLine(myDateTime2.ToString());
+
+int myInt5 = 3;
+Console.WriteLine(myInt);
+string myString5 = "5";
+
+myInt5 = int.Parse(myString5);
+Console.WriteLine(myInt5);
