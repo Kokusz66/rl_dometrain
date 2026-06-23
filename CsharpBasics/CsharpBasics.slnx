@@ -4,6 +4,7 @@
   <Project Path="ControlFlow/ControlFlow.csproj" />
   <Project Path="CsharpBasics/CsharpBasics.csproj" />
   <Project Path="Dictionarry/Dictionarry.csproj" />
+  <Project Path="FieldsAndProperties/FieldsAndProperties.csproj" />
   <Project Path="ForEachLoop/ForEachLoop.csproj" />
   <Project Path="ForLoop/ForLoop.csproj" />
   <Project Path="Lists/Lists.csproj" />
