@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="Arguments/Arguments.csproj" />
+  <Project Path="Calculator/Calculator.csproj" Id="4d7c17fb-2d93-4a85-a5cb-9c2b6e33be45" />
   <Project Path="Collections/Collections.csproj" />
   <Project Path="Constructors/Constructors.csproj" />
   <Project Path="ControlFlow/ControlFlow.csproj" />
