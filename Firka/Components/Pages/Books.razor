@@ -1,0 +1,44 @@
+﻿@page "/books"
+@using Firka.Models
+@using Firka.Services
+
+@inject BookServices BookServices
+@inject NavigationManager Navigation
+
+<h3>Könyvek</h3>
+
+@foreach (var book in books)
+{
+    <p>@book.Title</p>
+}
+
+
+<button @onclick='() => Navigation.NavigateTo("/bookform")'>Új könyv</button>
+
+<p></p>
+
+<input type="text" @bind="titleInput" placeholder="Könyv címe" />
+<button type="button" @onclick="DeleteByTitle">Törlés cím alapján</button>
+
+@code {
+    private List<Book> books = new();
+
+    private string titleInput = string.Empty;
+
+    protected override void OnInitialized()
+    {
+        books = BookServices.GetAllBooks();
+    }
+
+    
+    private void DeleteByTitle() //ez is kell neki, ne felejtsd el!
+    {
+        BookServices.DeleteByTitle(titleInput);
+        books = BookServices.GetAllBooks();
+    }
+
+    
+
+
+
+}

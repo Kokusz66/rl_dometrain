@@ -1087,11 +1087,6 @@ C:\Users\Admin\source\repos\rl_dometrain\5 Source\BlazorWebAppDemo\BlazorWebAppD
 C:\Users\Admin\source\repos\rl_dometrain\5 Source\BlazorWebAppDemo\BlazorWebAppDemo.Client\obj\Debug\net8.0\compressed\htxxurikob-tptq2av103.gz
 C:\Users\Admin\source\repos\rl_dometrain\5 Source\BlazorWebAppDemo\BlazorWebAppDemo.Client\obj\Debug\net8.0\compressed\89z16f33vz-lfu7j35m59.gz
 C:\Users\Admin\source\repos\rl_dometrain\5 Source\BlazorWebAppDemo\BlazorWebAppDemo.Client\obj\Debug\net8.0\compressed\wa80w6ie7m-oyz0vx2fzb.gz
-C:\Users\Admin\source\repos\rl_dometrain\5 Source\BlazorWebAppDemo\BlazorWebAppDemo.Client\obj\Debug\net8.0\compressed\zmlxtnect6-q5e7x7ej29.gz
-C:\Users\Admin\source\repos\rl_dometrain\5 Source\BlazorWebAppDemo\BlazorWebAppDemo.Client\obj\Debug\net8.0\compressed\e856o06d3t-imhgyu2d98.gz
-C:\Users\Admin\source\repos\rl_dometrain\5 Source\BlazorWebAppDemo\BlazorWebAppDemo.Client\obj\Debug\net8.0\compressed\gus069obnw-l50mshq6zu.gz
-C:\Users\Admin\source\repos\rl_dometrain\5 Source\BlazorWebAppDemo\BlazorWebAppDemo.Client\obj\Debug\net8.0\compressed\xtxjsol2xd-tf1onlrwxe.gz
-C:\Users\Admin\source\repos\rl_dometrain\5 Source\BlazorWebAppDemo\BlazorWebAppDemo.Client\obj\Debug\net8.0\compressed\772idilqbu-u4xioxodq5.gz
 C:\Users\Admin\source\repos\rl_dometrain\5 Source\BlazorWebAppDemo\BlazorWebAppDemo.Client\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Admin\source\repos\rl_dometrain\5 Source\BlazorWebAppDemo\BlazorWebAppDemo.Client\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\Admin\source\repos\rl_dometrain\5 Source\BlazorWebAppDemo\BlazorWebAppDemo.Client\obj\Debug\net8.0\staticwebassets.development.json
@@ -1102,3 +1097,8 @@ C:\Users\Admin\source\repos\rl_dometrain\5 Source\BlazorWebAppDemo\BlazorWebAppD
 C:\Users\Admin\source\repos\rl_dometrain\5 Source\BlazorWebAppDemo\BlazorWebAppDemo.Client\obj\Debug\net8.0\refint\BlazorWebAppDemo.Client.dll
 C:\Users\Admin\source\repos\rl_dometrain\5 Source\BlazorWebAppDemo\BlazorWebAppDemo.Client\obj\Debug\net8.0\BlazorWebAppDemo.Client.pdb
 C:\Users\Admin\source\repos\rl_dometrain\5 Source\BlazorWebAppDemo\BlazorWebAppDemo.Client\obj\Debug\net8.0\ref\BlazorWebAppDemo.Client.dll
+C:\Users\Admin\source\repos\rl_dometrain\5 Source\BlazorWebAppDemo\BlazorWebAppDemo.Client\obj\Debug\net8.0\compressed\zmlxtnect6-d1n1gyb1u4.gz
+C:\Users\Admin\source\repos\rl_dometrain\5 Source\BlazorWebAppDemo\BlazorWebAppDemo.Client\obj\Debug\net8.0\compressed\e856o06d3t-pl83avqfp3.gz
+C:\Users\Admin\source\repos\rl_dometrain\5 Source\BlazorWebAppDemo\BlazorWebAppDemo.Client\obj\Debug\net8.0\compressed\gus069obnw-r3lv66yh5v.gz
+C:\Users\Admin\source\repos\rl_dometrain\5 Source\BlazorWebAppDemo\BlazorWebAppDemo.Client\obj\Debug\net8.0\compressed\xtxjsol2xd-0onvahkjx9.gz
+C:\Users\Admin\source\repos\rl_dometrain\5 Source\BlazorWebAppDemo\BlazorWebAppDemo.Client\obj\Debug\net8.0\compressed\772idilqbu-2rehe8nrpj.gz

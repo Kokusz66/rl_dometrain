@@ -9,57 +9,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Firka
 build_property.RootNamespace = Firka
-build_property.ProjectDir = C:\Users\Admin\source\repos\rl_dometrain\Firka\
+build_property.ProjectDir = C:\Users\Admin\source\repos\Firka\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Admin\source\repos\rl_dometrain\Firka
+build_property.MSBuildProjectDirectory = C:\Users\Admin\source\repos\Firka
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Admin/source/repos/rl_dometrain/Firka/Components/App.razor]
+[C:/Users/Admin/source/repos/Firka/Components/App.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/rl_dometrain/Firka/Components/Pages/Counter.razor]
+[C:/Users/Admin/source/repos/Firka/Components/Pages/BookForm.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xCb29rRm9ybS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/Firka/Components/Pages/Books.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xCb29rcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/Firka/Components/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/rl_dometrain/Firka/Components/Pages/DemoPage.razor]
+[C:/Users/Admin/source/repos/Firka/Components/Pages/DemoPage.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEZW1vUGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/rl_dometrain/Firka/Components/Pages/Error.razor]
+[C:/Users/Admin/source/repos/Firka/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/rl_dometrain/Firka/Components/Pages/Home.razor]
+[C:/Users/Admin/source/repos/Firka/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/rl_dometrain/Firka/Components/Pages/NewCounter.razor]
+[C:/Users/Admin/source/repos/Firka/Components/Pages/NewCounter.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xOZXdDb3VudGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/rl_dometrain/Firka/Components/Pages/Weather.razor]
+[C:/Users/Admin/source/repos/Firka/Components/Pages/Weather.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/rl_dometrain/Firka/Components/Routes.razor]
+[C:/Users/Admin/source/repos/Firka/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/rl_dometrain/Firka/Components/_Imports.razor]
+[C:/Users/Admin/source/repos/Firka/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/rl_dometrain/Firka/Components/Layout/MainLayout.razor]
+[C:/Users/Admin/source/repos/Firka/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-t43xrx1fli
 
-[C:/Users/Admin/source/repos/rl_dometrain/Firka/Components/Layout/NavMenu.razor]
+[C:/Users/Admin/source/repos/Firka/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-ode4ib7o5f

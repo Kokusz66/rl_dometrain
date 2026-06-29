@@ -1024,9 +1024,6 @@ C:\Users\Admin\source\repos\rl_dometrain\5 Source\BlazorStandaloneApp\obj\Debug\
 C:\Users\Admin\source\repos\rl_dometrain\5 Source\BlazorStandaloneApp\obj\Debug\net8.0\compressed\bhwmxl0zic-tptq2av103.gz
 C:\Users\Admin\source\repos\rl_dometrain\5 Source\BlazorStandaloneApp\obj\Debug\net8.0\compressed\6l0z5nwbgz-lfu7j35m59.gz
 C:\Users\Admin\source\repos\rl_dometrain\5 Source\BlazorStandaloneApp\obj\Debug\net8.0\compressed\18b8pf3pxi-oyz0vx2fzb.gz
-C:\Users\Admin\source\repos\rl_dometrain\5 Source\BlazorStandaloneApp\obj\Debug\net8.0\compressed\q7ce4gmxtn-z50xuai5tu.gz
-C:\Users\Admin\source\repos\rl_dometrain\5 Source\BlazorStandaloneApp\obj\Debug\net8.0\compressed\khbncpcwf9-dsk9lm4dza.gz
-C:\Users\Admin\source\repos\rl_dometrain\5 Source\BlazorStandaloneApp\obj\Debug\net8.0\compressed\951676swxa-nnb3z8n1ww.gz
 C:\Users\Admin\source\repos\rl_dometrain\5 Source\BlazorStandaloneApp\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Admin\source\repos\rl_dometrain\5 Source\BlazorStandaloneApp\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\Admin\source\repos\rl_dometrain\5 Source\BlazorStandaloneApp\obj\Debug\net8.0\staticwebassets.development.json
@@ -1037,3 +1034,6 @@ C:\Users\Admin\source\repos\rl_dometrain\5 Source\BlazorStandaloneApp\obj\Debug\
 C:\Users\Admin\source\repos\rl_dometrain\5 Source\BlazorStandaloneApp\obj\Debug\net8.0\refint\BlazorStandaloneApp.dll
 C:\Users\Admin\source\repos\rl_dometrain\5 Source\BlazorStandaloneApp\obj\Debug\net8.0\BlazorStandaloneApp.pdb
 C:\Users\Admin\source\repos\rl_dometrain\5 Source\BlazorStandaloneApp\obj\Debug\net8.0\ref\BlazorStandaloneApp.dll
+C:\Users\Admin\source\repos\rl_dometrain\5 Source\BlazorStandaloneApp\obj\Debug\net8.0\compressed\q7ce4gmxtn-jhit9qlhiz.gz
+C:\Users\Admin\source\repos\rl_dometrain\5 Source\BlazorStandaloneApp\obj\Debug\net8.0\compressed\khbncpcwf9-gvi6jk7zso.gz
+C:\Users\Admin\source\repos\rl_dometrain\5 Source\BlazorStandaloneApp\obj\Debug\net8.0\compressed\951676swxa-k383p37bvn.gz

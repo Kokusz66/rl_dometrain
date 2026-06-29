@@ -1,0 +1,5 @@
+C:\Users\Admin\Source\Repos\rl_dometrain\obj\Debug\net9.0\RL_Dometrain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Source\Repos\rl_dometrain\obj\Debug\net9.0\RL_Dometrain.AssemblyInfoInputs.cache
+C:\Users\Admin\Source\Repos\rl_dometrain\obj\Debug\net9.0\RL_Dometrain.AssemblyInfo.cs
+C:\Users\Admin\Source\Repos\rl_dometrain\obj\Debug\net9.0\RL_Dometrain.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Source\Repos\rl_dometrain\obj\Debug\net9.0\RL_Dometrain.sourcelink.json
