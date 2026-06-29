@@ -1,0 +1,1 @@
+C:\Users\Admin\source\repos\rl_dometrain\5 Source\BlazorWebAppDemo\BlazorWebAppDemo.Client\obj\Debug\net8.0\staticwebassets.build.json

@@ -1,0 +1,10 @@
+﻿
+@Model.SomeText
+
+<button class="btn btn-secondary" @onclick="@(()=>Model.SomeText=DateTime.Now.ToLongTimeString())">Set Current time</button>
+<br />
+@code {
+    [CascadingParameter]
+    public required CascadingModel Model { get; set; }
+
+}

@@ -1,0 +1,29 @@
+﻿@page "/StateHasChangedDemo"
+@*In this case we want to update the UI fast, then we need WASM*@
+@rendermode InteractiveWebAssembly
+<h3>StateHasChangedDemo</h3>
+
+<p>
+    StateHasChanged will tell Blazor that a change has been made and the UI should update itself.<br/>
+    In many cases, this will happen automatically.
+    But in some cases, for example, if you are running inside of another thread, we need to tell Blazor that it's time to update.<br />
+    We might also want to update the ui from within a method and do it twice. And in that case, we need to use StateHasChanged as well.<br />
+</p>
+
+@currentTime.ToLongTimeString()
+
+@code {
+    TimeOnly currentTime;
+    //A timer will execute on another thread
+    System.Threading.Timer timer;
+    protected override void OnInitialized()
+    {
+        timer = new System.Threading.Timer(async _ => // async void
+        {
+            currentTime = TimeOnly.FromDateTime(DateTime.Now);
+            // We need StateHasChanged() because this is an async void handler
+            // We need to Invoke it because we could be on another thread (not the UI Thread)
+            await InvokeAsync(StateHasChanged);
+        }, null, 0, 1000);
+    }
+}
