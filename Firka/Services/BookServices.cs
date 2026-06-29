@@ -44,6 +44,23 @@ namespace Firka.Services
             return result;
         }
 
+        public Book GetBookByTitle(string title)
+        {
+            Book result = Books[0];
+            for (int i = 0; i < Books.Count; i++)
+            {
+                if (Books[i].Title == title)
+                {
+                    result = Books[i];
+                }
+                else
+                {
+                    Console.WriteLine($"A keresett {title} könyv nem található, itt az első könyv.");
+                }
+            }
+            return result;
+        }
+
         public void AddBook(Book book)
         {
             Books.Add(book);
