@@ -1,0 +1,13 @@
+﻿@page "/Rendermode"
+
+<h3>DemoPage</h3>
+
+<NewCounter />
+<NewCounter @rendermode="InteractiveServer" />
+<NewCounter @rendermode="InteractiveWebAssembly" />
+<NewCounter @rendermode="@(new InteractiveServerRenderMode(prerender:false))" />
+<NewCounter @rendermode="@(new InteractiveWebAssemblyRenderMode(prerender:false))" />
+
+@code {
+
+}
