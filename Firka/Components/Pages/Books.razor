@@ -1,7 +1,9 @@
 ﻿@page "/books"
 @using Firka.Models
 @using Firka.Services
+@using Blazored.LocalStorage
 
+@inject ILocalStorageService sessionStorage
 @inject BookServices BookServices
 @inject NavigationManager Navigation
 
@@ -34,7 +36,23 @@
 <input type="text" @bind="idInput" placeholder="Könyv sorszáma" />
 <button type="button" @onclick="DeleteById">Törlés sorszám alapján</button>
 
+<p></p>
+@name
+
 @code {
+
+    string name = "Nothing is set yet.";
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        await sessionStorage.SetItemAsStringAsync("name", "Rocket Racoon");
+        var storedname = await sessionStorage.GetItemAsync<string>("name");
+        if (storedname != name)
+        {
+            name = storedname;
+            StateHasChanged();
+        }
+    }
 
     private List<Book> books = new();
 

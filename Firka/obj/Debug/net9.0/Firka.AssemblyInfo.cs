@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Firka")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+609151eb07fcba3ccfc4bd3aec02c18787766901")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18fc18fc24e25b034fe68d26eed267791e989cc3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Firka")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Firka")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

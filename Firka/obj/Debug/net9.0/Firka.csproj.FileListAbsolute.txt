@@ -225,7 +225,6 @@ C:\Users\resta\Source\Repos\CWHome\Firka\obj\Debug\net9.0\compressed\zj26abc2am-
 C:\Users\resta\Source\Repos\CWHome\Firka\obj\Debug\net9.0\compressed\r440mui21f-h1s4sie4z3.gz
 C:\Users\resta\Source\Repos\CWHome\Firka\obj\Debug\net9.0\compressed\9a5ln267oc-4d85u1mtcx.gz
 C:\Users\resta\Source\Repos\CWHome\Firka\obj\Debug\net9.0\compressed\363n1rl8ds-0j3bgjxly4.gz
-C:\Users\resta\Source\Repos\CWHome\Firka\obj\Debug\net9.0\compressed\tic86zdgwc-r6of4m62yq.gz
 C:\Users\resta\Source\Repos\CWHome\Firka\obj\Debug\net9.0\compressed\tylzd3yptw-r6of4m62yq.gz
 C:\Users\resta\Source\Repos\CWHome\Firka\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\resta\Source\Repos\CWHome\Firka\obj\Debug\net9.0\staticwebassets.build.json.cache
@@ -237,3 +236,12 @@ C:\Users\resta\Source\Repos\CWHome\Firka\obj\Debug\net9.0\refint\Firka.dll
 C:\Users\resta\Source\Repos\CWHome\Firka\obj\Debug\net9.0\Firka.pdb
 C:\Users\resta\Source\Repos\CWHome\Firka\obj\Debug\net9.0\Firka.genruntimeconfig.cache
 C:\Users\resta\Source\Repos\CWHome\Firka\obj\Debug\net9.0\ref\Firka.dll
+C:\Users\resta\Source\Repos\CWHome\Firka\bin\Debug\net9.0\Blazored.LocalStorage.dll
+C:\Users\resta\Source\Repos\CWHome\Firka\bin\Debug\net9.0\BlazorJWT.BlazoredLocalStorage.dll
+C:\Users\resta\Source\Repos\CWHome\Firka\bin\Debug\net9.0\BlazorJWT.Core.dll
+C:\Users\resta\Source\Repos\CWHome\Firka\bin\Debug\net9.0\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll
+C:\Users\resta\Source\Repos\CWHome\Firka\obj\Debug\net9.0\Firka.csproj.AssemblyReference.cache
+C:\Users\resta\Source\Repos\CWHome\Firka\obj\Debug\net9.0\compressed\f32kn295nz-eabu6agnn4.gz
+C:\Users\resta\Source\Repos\CWHome\Firka\obj\Debug\net9.0\compressed\ueotsgx0a8-umbmiwqpcs.gz
+C:\Users\resta\Source\Repos\CWHome\Firka\obj\Debug\net9.0\compressed\tic86zdgwc-rqezngakfm.gz
+C:\Users\resta\Source\Repos\CWHome\Firka\obj\Debug\net9.0\Firka.csproj.Up2Date
