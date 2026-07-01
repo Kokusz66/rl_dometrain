@@ -9,32 +9,69 @@
 
 @foreach (var book in books)
 {
-    <p>@book.Title</p>
+    <p>@book.Id ,@book.Title</p>
 }
 
-
+ 
 <button @onclick='() => Navigation.NavigateTo("/bookform")'>Új könyv</button>
+
+<p></p>
+
+<button @onclick='() => Navigation.NavigateTo("/bookDetails")'>Egy könyv adatai</button>
 
 <p></p>
 
 <input type="text" @bind="titleInput" placeholder="Könyv címe" />
 <button type="button" @onclick="DeleteByTitle">Törlés cím alapján</button>
 
+<p></p>
+
+@if (!string.IsNullOrEmpty(errorMessage))
+{
+    <p class="text-danger">@errorMessage</p>
+}
+
+<input type="text" @bind="idInput" placeholder="Könyv sorszáma" />
+<button type="button" @onclick="DeleteById">Törlés sorszám alapján</button>
+
 @code {
+
     private List<Book> books = new();
 
     private string titleInput = string.Empty;
+    private string idInput = string.Empty;
+    private string? errorMessage;
 
     protected override void OnInitialized()
     {
         books = BookServices.GetAllBooks();
     }
 
-    
+
     private void DeleteByTitle() //ez is kell neki, ne felejtsd el!
     {
         BookServices.DeleteByTitle(titleInput);
         books = BookServices.GetAllBooks();
+    }
+
+    private void DeleteById()
+    {
+        if (int.TryParse(idInput, out int id))
+        {
+            if (BookServices.IdIsInTheList(id) == true)
+            {
+                BookServices.DeleteBook(id);
+                errorMessage = null;
+            }
+            else
+            {
+                errorMessage = "A keresett sorszámú könyv nem található a listában.";
+            }
+        }
+        else
+        {
+            errorMessage = "Sajnos nem számot adtál meg, próbáld újra.";
+        }
     }
 
     

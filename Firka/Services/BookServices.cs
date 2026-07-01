@@ -6,13 +6,16 @@ namespace Firka.Services
 {
     public class BookServices
     {
-        private List<Book> Books = new List<Book>
+
+        public List<Book> Books { get; set; } = new();
+
+        public BookServices()
         {
-            new Book(1, "Harry Potter", "J.K. Rowling", 1997, true),
-            new Book(2, "A Gyűrűk Ura", "J.R.R. Tolkien", 1954, false),
-            new Book(3, "Dűne", "Frank Herbert", 1965, true)
-        };
-        
+            Books.Add(new Book(1, "Harry Potter", "J.K. Rowling", 1997, true));
+            Books.Add(new Book(2, "A Gyűrűk Ura", "J.R.R. Tolkien", 1954, false));
+            Books.Add(new Book(3, "Dűne", "Frank Herbert", 1965, true));
+        }
+
         public List<Book> GetAllBooks()
         {   
             if (this.Books.Count() != 0)
@@ -109,6 +112,19 @@ namespace Firka.Services
                     Console.WriteLine($"A keresett könyv: {title}, nem található");
                 }
             }
+        }
+
+        public bool IdIsInTheList(int id)
+        {
+            bool result = false;
+            foreach (Book book in Books)
+            {
+                if (book.Id == id)
+                {
+                    result = true;
+                }
+            }
+            return result;
         }
     }
 }
