@@ -1,0 +1,13 @@
+﻿@page "/changerendermode"
+@inject NavigationManager NavigationManager
+@inject HttpClient Http
+
+<h3>Select Render Mode</h3>
+<div class="button-container">
+    @foreach (var mode in Enum.GetValues<ComponentRenderMode>())
+    {
+        <a class="render-mode-button" href="@($"{NavigationManager.BaseUri}set-render-mode/{mode}")">@mode</a>
+    }
+</div>
+
+

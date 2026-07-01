@@ -1,0 +1,45 @@
+﻿@page "/CascadingParametersDemo"
+@rendermode InteractiveServer
+<h3>CascadingParametersDemo</h3>
+
+<h2>No cascading</h2>
+<NoCascadingParameter Parameter="@ValueToCascade"/>
+<NoCascadingParameter Parameter="@ValueToCascade" />
+<NoCascadingParameter Parameter="@ValueToCascade" />
+
+<h2>With cascading</h2>
+<CascadingValue Value="@ValueToCascade">
+    <WithCascadingParameter />
+    <WithCascadingParameter />
+    <WithCascadingParameter />
+</CascadingValue>
+
+
+<h2>With cascading and name</h2>
+<CascadingValue Value="@ValueToCascade" Name="CParameter">
+    <WithCascadingParameterAndName />
+    <WithCascadingParameterAndName />
+</CascadingValue>
+
+<h2>With cascading and fixed</h2>
+<CascadingValue Value="@ValueToCascade" IsFixed="true">
+    <WithCascadingParameter />
+</CascadingValue>
+
+<h2>Root-level cascading</h2>
+<WithRootLevelCascading />
+<WithRootLevelCascading />
+
+
+
+<button class="btn btn-primary"  @onclick="@UpdateValue">Update value</button>
+@code {
+    string ValueToCascade = "Hello";
+
+    private void UpdateValue()
+    {
+        ValueToCascade = "Hello to you too";
+    }
+}
+
+
