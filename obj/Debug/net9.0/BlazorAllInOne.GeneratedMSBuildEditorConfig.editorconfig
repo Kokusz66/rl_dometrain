@@ -1,0 +1,341 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BlazorAllInOne
+build_property.RootNamespace = BlazorAllInOne
+build_property.ProjectDir = C:\Users\resta\source\repos\BlazorAllInOne\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\resta\source\repos\BlazorAllInOne
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorStandaloneApp/App.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yU3RhbmRhbG9uZUFwcFxBcHAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorStandaloneApp/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yU3RhbmRhbG9uZUFwcFxQYWdlc1xDb3VudGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorStandaloneApp/Pages/Debug/IvanDragoInteractiveWebAssembly.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yU3RhbmRhbG9uZUFwcFxQYWdlc1xEZWJ1Z1xJdmFuRHJhZ29JbnRlcmFjdGl2ZVdlYkFzc2VtYmx5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorStandaloneApp/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yU3RhbmRhbG9uZUFwcFxQYWdlc1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorStandaloneApp/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yU3RhbmRhbG9uZUFwcFxQYWdlc1xXZWF0aGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorStandaloneApp/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yU3RhbmRhbG9uZUFwcFxfSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo.Client/Components/Demos/Part4/StateHasChangedDemo.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vLkNsaWVudFxDb21wb25lbnRzXERlbW9zXFBhcnQ0XFN0YXRlSGFzQ2hhbmdlZERlbW8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo.Client/Components/Demos/Part5/LifecycleDemo.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vLkNsaWVudFxDb21wb25lbnRzXERlbW9zXFBhcnQ1XExpZmVjeWNsZURlbW8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo.Client/Components/Demos/Part5/RenderMode/NewCounter.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vLkNsaWVudFxDb21wb25lbnRzXERlbW9zXFBhcnQ1XFJlbmRlck1vZGVcTmV3Q291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo.Client/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vLkNsaWVudFxQYWdlc1xDb3VudGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo.Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vLkNsaWVudFxfSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vXENvbXBvbmVudHNcQXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo/Components/Demos/MyButtonDemo.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vXENvbXBvbmVudHNcRGVtb3NcTXlCdXR0b25EZW1vLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo/Components/Demos/Part4/AdminDemo/AdminPage1.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vXENvbXBvbmVudHNcRGVtb3NcUGFydDRcQWRtaW5EZW1vXEFkbWluUGFnZTEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo/Components/Demos/Part4/AdminDemo/AdminPage2.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vXENvbXBvbmVudHNcRGVtb3NcUGFydDRcQWRtaW5EZW1vXEFkbWluUGFnZTIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo/Components/Demos/Part4/AdminDemo/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vXENvbXBvbmVudHNcRGVtb3NcUGFydDRcQWRtaW5EZW1vXF9JbXBvcnRzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo/Components/Demos/Part4/AttributeDemo.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vXENvbXBvbmVudHNcRGVtb3NcUGFydDRcQXR0cmlidXRlRGVtby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo/Components/Demos/Part4/AttributesDemo.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vXENvbXBvbmVudHNcRGVtb3NcUGFydDRcQXR0cmlidXRlc0RlbW8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo/Components/Demos/Part4/BindingComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vXENvbXBvbmVudHNcRGVtb3NcUGFydDRcQmluZGluZ0NvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo/Components/Demos/Part4/BindingComponentDemo.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vXENvbXBvbmVudHNcRGVtb3NcUGFydDRcQmluZGluZ0NvbXBvbmVudERlbW8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo/Components/Demos/Part4/BindingElementDemo.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vXENvbXBvbmVudHNcRGVtb3NcUGFydDRcQmluZGluZ0VsZW1lbnREZW1vLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo/Components/Demos/Part4/CascadingParametersDemo/CascadingParametersDemo.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vXENvbXBvbmVudHNcRGVtb3NcUGFydDRcQ2FzY2FkaW5nUGFyYW1ldGVyc0RlbW9cQ2FzY2FkaW5nUGFyYW1ldGVyc0RlbW8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo/Components/Demos/Part4/CascadingParametersDemo/NoCascadingParameter.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vXENvbXBvbmVudHNcRGVtb3NcUGFydDRcQ2FzY2FkaW5nUGFyYW1ldGVyc0RlbW9cTm9DYXNjYWRpbmdQYXJhbWV0ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo/Components/Demos/Part4/CascadingParametersDemo/WithCascadingParameter.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vXENvbXBvbmVudHNcRGVtb3NcUGFydDRcQ2FzY2FkaW5nUGFyYW1ldGVyc0RlbW9cV2l0aENhc2NhZGluZ1BhcmFtZXRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo/Components/Demos/Part4/CascadingParametersDemo/WithCascadingParameterAndName.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vXENvbXBvbmVudHNcRGVtb3NcUGFydDRcQ2FzY2FkaW5nUGFyYW1ldGVyc0RlbW9cV2l0aENhc2NhZGluZ1BhcmFtZXRlckFuZE5hbWUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo/Components/Demos/Part4/CascadingParametersDemo/WithRootLevelCascading.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vXENvbXBvbmVudHNcRGVtb3NcUGFydDRcQ2FzY2FkaW5nUGFyYW1ldGVyc0RlbW9cV2l0aFJvb3RMZXZlbENhc2NhZGluZy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo/Components/Demos/Part4/CodeDemo.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vXENvbXBvbmVudHNcRGVtb3NcUGFydDRcQ29kZURlbW8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo/Components/Demos/Part4/CodePlacement/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vXENvbXBvbmVudHNcRGVtb3NcUGFydDRcQ29kZVBsYWNlbWVudFxDb3VudGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo/Components/Demos/Part4/CodePlacement/CounterInherit.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vXENvbXBvbmVudHNcRGVtb3NcUGFydDRcQ29kZVBsYWNlbWVudFxDb3VudGVySW5oZXJpdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo/Components/Demos/Part4/EventCallbackDemo.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vXENvbXBvbmVudHNcRGVtb3NcUGFydDRcRXZlbnRDYWxsYmFja0RlbW8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo/Components/Demos/Part4/InjectDemo.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vXENvbXBvbmVudHNcRGVtb3NcUGFydDRcSW5qZWN0RGVtby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo/Components/Demos/Part4/LayoutDemo.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vXENvbXBvbmVudHNcRGVtb3NcUGFydDRcTGF5b3V0RGVtby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo/Components/Demos/Part4/PageDemo.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vXENvbXBvbmVudHNcRGVtb3NcUGFydDRcUGFnZURlbW8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo/Components/Demos/Part4/ParameterDemo.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vXENvbXBvbmVudHNcRGVtb3NcUGFydDRcUGFyYW1ldGVyRGVtby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo/Components/Demos/Part4/TypeParamDemo.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vXENvbXBvbmVudHNcRGVtb3NcUGFydDRcVHlwZVBhcmFtRGVtby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo/Components/Demos/Part4/UsingDemo.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vXENvbXBvbmVudHNcRGVtb3NcUGFydDRcVXNpbmdEZW1vLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo/Components/Demos/Part5/Prerendering/WeatherWithState.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vXENvbXBvbmVudHNcRGVtb3NcUGFydDVcUHJlcmVuZGVyaW5nXFdlYXRoZXJXaXRoU3RhdGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo/Components/Demos/Part5/Prerendering/WeatherWithStreaming.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vXENvbXBvbmVudHNcRGVtb3NcUGFydDVcUHJlcmVuZGVyaW5nXFdlYXRoZXJXaXRoU3RyZWFtaW5nLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo/Components/Demos/Part5/Rendermode/RenderModeDemo.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vXENvbXBvbmVudHNcRGVtb3NcUGFydDVcUmVuZGVybW9kZVxSZW5kZXJNb2RlRGVtby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo/Components/MyButton.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vXENvbXBvbmVudHNcTXlCdXR0b24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo/Components/MyList.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vXENvbXBvbmVudHNcTXlMaXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo/Components/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vXENvbXBvbmVudHNcUGFnZXNcRXJyb3IucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo/Components/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vXENvbXBvbmVudHNcUGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo/Components/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vXENvbXBvbmVudHNcUGFnZXNcV2VhdGhlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vXENvbXBvbmVudHNcUm91dGVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vXENvbXBvbmVudHNcX0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/WebAppTest/WebAppTest/WebAppTest.Client/Pages/Cache.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcV2ViQXBwVGVzdFxXZWJBcHBUZXN0XFdlYkFwcFRlc3QuQ2xpZW50XFBhZ2VzXENhY2hlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/WebAppTest/WebAppTest/WebAppTest.Client/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcV2ViQXBwVGVzdFxXZWJBcHBUZXN0XFdlYkFwcFRlc3QuQ2xpZW50XFBhZ2VzXENvdW50ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/WebAppTest/WebAppTest/WebAppTest.Client/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcV2ViQXBwVGVzdFxXZWJBcHBUZXN0XFdlYkFwcFRlc3QuQ2xpZW50XFBhZ2VzXEhvbWUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/WebAppTest/WebAppTest/WebAppTest.Client/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcV2ViQXBwVGVzdFxXZWJBcHBUZXN0XFdlYkFwcFRlc3QuQ2xpZW50XFBhZ2VzXFdlYXRoZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/WebAppTest/WebAppTest/WebAppTest.Client/Pages/WeatherWithState.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcV2ViQXBwVGVzdFxXZWJBcHBUZXN0XFdlYkFwcFRlc3QuQ2xpZW50XFBhZ2VzXFdlYXRoZXJXaXRoU3RhdGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/WebAppTest/WebAppTest/WebAppTest.Client/Pages/WeatherWithStreaming.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcV2ViQXBwVGVzdFxXZWJBcHBUZXN0XFdlYkFwcFRlc3QuQ2xpZW50XFBhZ2VzXFdlYXRoZXJXaXRoU3RyZWFtaW5nLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/WebAppTest/WebAppTest/WebAppTest.Client/RenderModes/ShowRenderMode.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcV2ViQXBwVGVzdFxXZWJBcHBUZXN0XFdlYkFwcFRlc3QuQ2xpZW50XFJlbmRlck1vZGVzXFNob3dSZW5kZXJNb2RlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/WebAppTest/WebAppTest/WebAppTest.Client/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcV2ViQXBwVGVzdFxXZWJBcHBUZXN0XFdlYkFwcFRlc3QuQ2xpZW50XFJvdXRlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/WebAppTest/WebAppTest/WebAppTest.Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcV2ViQXBwVGVzdFxXZWJBcHBUZXN0XFdlYkFwcFRlc3QuQ2xpZW50XF9JbXBvcnRzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/WebAppTest/WebAppTest/WebAppTest/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcV2ViQXBwVGVzdFxXZWJBcHBUZXN0XFdlYkFwcFRlc3RcQ29tcG9uZW50c1xBcHAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/WebAppTest/WebAppTest/WebAppTest/Components/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcV2ViQXBwVGVzdFxXZWJBcHBUZXN0XFdlYkFwcFRlc3RcQ29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/WebAppTest/WebAppTest/WebAppTest/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcV2ViQXBwVGVzdFxXZWJBcHBUZXN0XFdlYkFwcFRlc3RcQ29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/Firka/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Rmlya2FcQ29tcG9uZW50c1xBcHAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/Firka/Components/Pages/BookDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = Rmlya2FcQ29tcG9uZW50c1xQYWdlc1xCb29rRGV0YWlscy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/Firka/Components/Pages/BookForm.razor]
+build_metadata.AdditionalFiles.TargetPath = Rmlya2FcQ29tcG9uZW50c1xQYWdlc1xCb29rRm9ybS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/Firka/Components/Pages/Books.razor]
+build_metadata.AdditionalFiles.TargetPath = Rmlya2FcQ29tcG9uZW50c1xQYWdlc1xCb29rcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/Firka/Components/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = Rmlya2FcQ29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/Firka/Components/Pages/DemoPage.razor]
+build_metadata.AdditionalFiles.TargetPath = Rmlya2FcQ29tcG9uZW50c1xQYWdlc1xEZW1vUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/Firka/Components/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = Rmlya2FcQ29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/Firka/Components/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Rmlya2FcQ29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/Firka/Components/Pages/NewCounter.razor]
+build_metadata.AdditionalFiles.TargetPath = Rmlya2FcQ29tcG9uZW50c1xQYWdlc1xOZXdDb3VudGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/Firka/Components/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = Rmlya2FcQ29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/Firka/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Rmlya2FcQ29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/Firka/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Rmlya2FcQ29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorStandaloneApp/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yU3RhbmRhbG9uZUFwcFxMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-npl89lrcga
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorStandaloneApp/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yU3RhbmRhbG9uZUFwcFxMYXlvdXRcTmF2TWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-d8cb67n82o
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo/Components/Layout/AdminLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vXENvbXBvbmVudHNcTGF5b3V0XEFkbWluTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-s9pqv530ym
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vXENvbXBvbmVudHNcTGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-1va9f4udpr
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/BlazorWebAppDemo/BlazorWebAppDemo/Components/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcQmxhem9yV2ViQXBwRGVtb1xCbGF6b3JXZWJBcHBEZW1vXENvbXBvbmVudHNcTGF5b3V0XE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-j2wv5bllen
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/WebAppTest/WebAppTest/WebAppTest.Client/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcV2ViQXBwVGVzdFxXZWJBcHBUZXN0XFdlYkFwcFRlc3QuQ2xpZW50XExheW91dFxNYWluTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-fj5gi1z5iq
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/WebAppTest/WebAppTest/WebAppTest.Client/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcV2ViQXBwVGVzdFxXZWJBcHBUZXN0XFdlYkFwcFRlc3QuQ2xpZW50XExheW91dFxOYXZNZW51LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-fn9b6y66vl
+
+[C:/Users/resta/source/repos/BlazorAllInOne/5 Source/WebAppTest/WebAppTest/WebAppTest.Client/Pages/ChangeRenderMode.razor]
+build_metadata.AdditionalFiles.TargetPath = NSBTb3VyY2VcV2ViQXBwVGVzdFxXZWJBcHBUZXN0XFdlYkFwcFRlc3QuQ2xpZW50XFBhZ2VzXENoYW5nZVJlbmRlck1vZGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-i9c4e8w5jp
+
+[C:/Users/resta/source/repos/BlazorAllInOne/Firka/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Rmlya2FcQ29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-ob0drkc60b
+
+[C:/Users/resta/source/repos/BlazorAllInOne/Firka/Components/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Rmlya2FcQ29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-4f5trlusgq
