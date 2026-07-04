@@ -1,3 +1,4 @@
+using Blazored.LocalStorage;
 using Firka.Components;
 using Firka.Services;
 
@@ -8,6 +9,7 @@ builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
 builder.Services.AddSingleton<BookServices>();
+builder.Services.AddBlazoredLocalStorage();
 
 var app = builder.Build();
 
