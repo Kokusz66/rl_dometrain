@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RL_Dometrain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16ce90f33773562f11223f876320efae5c97d361")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71cfe48b012839ccfb61f85f532e26faa10de4e2")]
 [assembly: System.Reflection.AssemblyProductAttribute("RL_Dometrain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RL_Dometrain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
