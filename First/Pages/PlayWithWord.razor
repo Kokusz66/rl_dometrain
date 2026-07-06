@@ -1,0 +1,58 @@
+﻿@page "/playWW"
+
+<h3>PlayWithWord</h3>
+
+<div class="interaction">
+    <h3>The word you last choose: @theWord</h3>
+    <p><InputText @bind-Value="theWord" @DisplayName="Type someting..."></InputText></p>
+    <p>
+        <button @onclick="AddToList" class="btn_to_add">Add to list</button>
+        <button @onclick="RandomDelete" class="btn_to_del">Random deletet</button>
+    </p>
+    <p>@msg</p>
+</div>
+
+<div class="list">
+    @{
+        foreach (string w in words)
+        {
+            <p>@w</p>
+        }
+    } 
+</div>
+
+@code {
+    public int randomNum = 0;
+    public string msg = "";
+
+    private List<string> words = new List<string>();
+
+    private string theWord = "";
+
+    private void AddToList()
+    {
+        if (!words.Contains(theWord))
+        {
+            words.Add(theWord);
+        }
+
+    }
+
+    private async Task RandomDelete()
+    {
+        if (words.Count() != 0)
+        {
+            var random = new Random();
+            randomNum = random.Next(0, words.Count());
+            words.Remove(words[randomNum]);
+            msg = "";
+        }
+        else
+        {
+            msg = "The list is empty...";
+        }
+    }
+
+
+
+}
