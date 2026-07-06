@@ -1,4 +1,6 @@
 ﻿@page "/playWW"
+@page "/playWW/{Variable}"
+@page "/playWW/{IntVariable:int}"
 
 <h3>PlayWithWord</h3>
 
@@ -21,7 +23,22 @@
     } 
 </div>
 
+<p><strong>String Value:</strong> @(Variable??"No string variable")</p>
+<p><strong>Int Value:</strong> @(IntVariable==null?"No int variable":IntVariable)</p>
+<p><strong>First name:</strong> @(FirstName??"No FirstName variable")</p>
+
 @code {
+
+    [Parameter]
+    public string? Variable { get; set; }
+
+    [Parameter]
+    public int? IntVariable { get; set; }
+
+    [Parameter, SupplyParameterFromQuery]
+    public string? FirstName { get; set; }
+    //            playWW/?FirstName=Jimmy
+
     public int randomNum = 0;
     public string msg = "";
 
