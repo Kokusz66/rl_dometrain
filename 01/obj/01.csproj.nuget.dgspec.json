@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DevAdmin\\source\\repos\\BlazorNowOrNever\\RL_Dometrain.csproj": {}
+    "C:\\Users\\DevAdmin\\source\\repos\\BlazorNowOrNever\\01\\01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DevAdmin\\source\\repos\\BlazorNowOrNever\\RL_Dometrain.csproj": {
+    "C:\\Users\\DevAdmin\\source\\repos\\BlazorNowOrNever\\01\\01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DevAdmin\\source\\repos\\BlazorNowOrNever\\RL_Dometrain.csproj",
-        "projectName": "RL_Dometrain",
-        "projectPath": "C:\\Users\\DevAdmin\\source\\repos\\BlazorNowOrNever\\RL_Dometrain.csproj",
+        "projectUniqueName": "C:\\Users\\DevAdmin\\source\\repos\\BlazorNowOrNever\\01\\01.csproj",
+        "projectName": "01",
+        "projectPath": "C:\\Users\\DevAdmin\\source\\repos\\BlazorNowOrNever\\01\\01.csproj",
         "packagesPath": "C:\\Users\\DevAdmin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DevAdmin\\source\\repos\\BlazorNowOrNever\\obj\\",
+        "outputPath": "C:\\Users\\DevAdmin\\source\\repos\\BlazorNowOrNever\\01\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -51,12 +51,6 @@
         "net9.0": {
           "framework": "net9.0",
           "targetAlias": "net9.0",
-          "dependencies": {
-            "Microsoft.Graph": {
-              "target": "Package",
-              "version": "[6.2.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -69,6 +63,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

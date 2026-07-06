@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36518.9
+# Visual Studio Version 18
+VisualStudioVersion = 18.7.11919.86 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RL_Dometrain", "RL_Dometrain.csproj", "{7FEDC7D5-8E9E-AB31-F203-A075AE53CB91}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MahnaMahna.Components", "..\MahnaMahna\MahnaMahna\MahnaMahna.Components\MahnaMahna.Components.csproj", "{AE95B774-007E-FBC1-1DE7-7179DC4B19F8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MahnaMahna.Shared", "..\MahnaMahna\MahnaMahna\MahnaMahna.Shared\MahnaMahna.Shared.csproj", "{7FC8A4F7-D887-E29A-AD2C-F4E35F32984C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01", "01\01.csproj", "{FC7B73A9-D3CC-48D7-85B8-6D8F57A0E7BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{7FC8A4F7-D887-E29A-AD2C-F4E35F32984C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FC8A4F7-D887-E29A-AD2C-F4E35F32984C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FC8A4F7-D887-E29A-AD2C-F4E35F32984C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC7B73A9-D3CC-48D7-85B8-6D8F57A0E7BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC7B73A9-D3CC-48D7-85B8-6D8F57A0E7BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC7B73A9-D3CC-48D7-85B8-6D8F57A0E7BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC7B73A9-D3CC-48D7-85B8-6D8F57A0E7BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
